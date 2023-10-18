@@ -9,7 +9,7 @@ from model_efnet_gpt import TransFuser4
 from model_efnet_swin import SwinFuser1
 from torchvision import models
 
-device = "cuda"
+device = "cuda:1"
 config = GlobalConfig()
 
 add_velocity =  1
